@@ -1,0 +1,32 @@
+{
+  "name": "kaigyo.js",
+  "version": "1.0.0",
+  "author": "zboris12",
+  "description": "A little javascript module to make sentence of CJK characters more human-friendly by breaking line at appropriate position.",
+  "homepage": "https://github.com/zboris12/kaigyo.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zboris12/kaigyo.js"
+  },
+  "bugs": {
+    "url": "https://github.com/zboris12/kaigyo.js/issues"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "files": [
+    "lib/*.js"
+  ],
+  "keywords": [
+    "line break",
+    "word wrap",
+    "改行"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node lib/test.js"
+  },
+  "devDependencies": {
+    "typescript": "~4.3"
+  }
+}
