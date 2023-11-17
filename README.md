@@ -22,7 +22,7 @@ import { breakLine } from "kaigyo.js";
 
 ### calcWidth
 :fondue::fondue::fondue:  
-calcWidth(str) :arrow_right: string  
+calcWidth(str) :arrow_right: number  
 Calculate the width of a string.  
 (1 for CJK characters, 0.5 for others)
 
